@@ -20,7 +20,7 @@ sudo reboot
 
 ## Instance 1 After Reboot
 
-df -k
+df -h
 sudo blkid
 sudo nano /etc/fstab
   ADD LINE 
@@ -29,7 +29,8 @@ sudo mount -a
 cd /ebstest
 ls -la
 ############################################################################################################
-
+Detach voume from instance 1
+attach volum to instance 2
 
 
 
