@@ -24,7 +24,7 @@ df -h
 sudo blkid
 sudo nano /etc/fstab
   ADD LINE 
-  UUID=YOURUUIDHEREREPLACEME  /ebstest  xfs  defaults,nofail
+  UUID=YOURUUIDHEREREPLACEME  /ebstest  xfs  defaults,nofail 0 0
 sudo mount -a
 cd /ebstest
 ls -la
